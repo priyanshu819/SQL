@@ -23,9 +23,25 @@ create database Paractice
  Alter table tblperson
  alter column GenderId INT NULL;
 
+ -- to Update Size of any attribute 
+  Alter table department 
+  alter column Department_Name nvarchar(20)
+
+
+
+ -- Update any Colum Attribute name 
+ Exec sp_rename 'employ.Department','DepartmentID','column';
+ 
+  -- Update any data value from any colums id
+  update department
+  set Location='New York'
+  where id=3
 
  -- Delete a Table
  drop table tblgender
+
+ -- Rename Table name
+ EXEC sp_rename 'oldname','newname';
 
 
  --- Set a Foreign Key Between Two table
