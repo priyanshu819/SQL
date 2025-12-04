@@ -1,4 +1,10 @@
+---------------------------------------***********--------------------------------------------------------------------------
+-- This is Linkdin post to solve multiple questions besic to Advance
+-- https://www.linkedin.com/posts/rishi-sharma-278999152_sql-ugcPost-7398590451504717824-xIYi?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAFVI04IB4UoODpxhncr1ZCMLvhbd0uHA9Yo
+----------------------------------------***********--------------------------------------------------------------------------
+
 -- This Is SQL Besic Command To Create A new DataBase
+
 
 --- Create A New Dataabse
 create database Paractice

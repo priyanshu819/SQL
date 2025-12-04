@@ -4,7 +4,7 @@
 Select ASCII('A')
 Select ASCII('ABC') -- it returns only first letter ascii value.
 
---2) CHAR(integer_exp) = Converts as int ascii code to a character. the integer_exp, should be beyween 0 and 25.
+--2) CHAR(integer_exp) = Converts as int ascii code to a character. the integer_exp, should be between 0 and 25.
    select char(65)
     -- Print A-Z from this function
       DECLARE @start int
@@ -94,8 +94,8 @@ Select ASCII('ABC') -- it returns only first letter ascii value.
 
    -- 15) PATINDEX('%pattern%',exp) = Returns the Strting position of first occurance of a position in a specified expresiion. it Takes two argument the pattern to be serached and the exp.
         -- Eg = 1
-                select Email ,patindex('%@aaa.com',email) as Fisrtoccc from  table_1
-                where patindex('%@aaa.com',email)>0
+                select Email ,patindex('%@aaa.com%',email) as Fisrtoccc from  table_1
+                where patindex('%@aaa.com%',email)>0
    
     
     --16) REPLACE(string_exp,pattern,replacement_value) = Replace all accurance of a specified string value with another string value.
